@@ -2,7 +2,6 @@ package reeksamentwitter.models;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.sun.istack.Nullable;
 import lombok.Data;
 
 import javax.persistence.*;

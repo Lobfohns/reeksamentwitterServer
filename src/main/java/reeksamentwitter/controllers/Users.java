@@ -2,7 +2,6 @@ package reeksamentwitter.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import reeksamentwitter.models.Post;
 import reeksamentwitter.models.User;
 import reeksamentwitter.repositories.UserRepository;
 

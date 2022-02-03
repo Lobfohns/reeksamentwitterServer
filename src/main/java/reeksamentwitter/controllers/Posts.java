@@ -21,12 +21,11 @@ public class Posts {
         return posts.findById(id).get();
     }
 
-    /*
+    /* Something I tried to get to work with ManyToMany and never ended up using. Not sure if I should include it?
     @GetMapping("/posts/hashtag/{hashtagId}")
     public List<Post> getPostsByHashtagId(@PathVariable Long hashtagId) {
         return posts.findPostsByHashtag(hashtagId);
     }
-
      */
 
     @PostMapping("/posts")
